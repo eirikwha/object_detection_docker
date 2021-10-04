@@ -1,7 +1,7 @@
 Prerequisites:
 ---
-Docker install
-Nvidia drivere installert lokalt
+- Docker install
+- Nvidia drivere installert lokalt
 
 Lage image:
 ---
