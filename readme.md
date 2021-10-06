@@ -2,9 +2,7 @@ Prerequisites:
 ---
 
 - Ubuntu 20.04 eller Pop!OS
-- Docker install 
-$curl https://get.docker.com | sh \
-&& sudo systemctl --now enable docker
+- Docker install (convenience script)
 - Nvidia drivere installert lokalt
 - Denne guiden for å instalere container toolkit https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#setting-up-nvidia-container-toolkit
 
