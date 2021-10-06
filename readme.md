@@ -7,6 +7,7 @@ Lage image:
 ---
 
 - Klone repo
+- Gå inn i repo
 
 $ docker build -t tf2-gpu-jupyter-cv2 .
 
