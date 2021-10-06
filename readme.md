@@ -24,3 +24,6 @@ $ sudo docker run -it --rm --gpus all -v $(realpath ~/object_detection/notebooks
 Åpne nederste link i nettleser:
 ![image](https://user-images.githubusercontent.com/42869570/135875317-9b953a7e-d8d3-470b-82a6-f50dd49dc605.png)
 
+Inneholder følgende pakker
+---
+Se Dockerfile
