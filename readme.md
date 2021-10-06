@@ -10,10 +10,11 @@ Lage image:
 
 $ docker build -t tf2-gpu-jupyter-cv2 .
 
-Kjøre image (slett "sudo" dersom det ikke trengs):
-
+Kjøre container (slett "sudo" dersom det ikke trengs):
 
 $ sudo docker run -it --rm -v $(realpath ~/tf2-gpu-jupyter-cv2/notebooks):/tf/notebooks -p 8888:8888 tf2-gpu-jupyter-cv2
+
+- Realpath er en lokal mappe som man kan tilgjengeliggjøre i docker containeren. Erstatt denne med din egen mappe,
 
 
 Åpne nederste link i nettleser:
